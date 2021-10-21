@@ -1,0 +1,82 @@
+/*CSS file*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+slab');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Sans+Serif');
+
+body {
+  font-family: 'Fira sans';
+}
+
+h1.a {
+  font-family: 'Roboto slab';
+  color:darkblue;
+}
+
+h1.b {
+  font-family: 'Roboto slab';
+  color: darkblue;
+  text-align: center;
+}
+
+div {
+  width: 60%;
+  margin:auto; 
+}
+
+p {
+  color:green;
+}
+
+ul {
+  color:purple;
+}
+
+ol {
+  color:grey;
+}
+
+/*page05*/
+.div{
+  width: 54%;
+}
+.div h1{
+  color:dodgerblue;
+  text-align: center;
+  font-family: 'Roboto slab';
+}
+.div h2{
+  color:darkslategray;
+  text-transform: uppercase;
+  font-size: medium;
+  text-align: center;
+  font-weight: lighter;
+  margin-top: -0.5em;
+}
+.div h3 {
+  color:darkslategray;
+}
+.div h3 em{
+  color:slategray;
+}
+p.first {
+  margin-top: 1em;
+}
+p.second {
+  margin-bottom: 2em;
+}
+
+/*page04 - card*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+  text-align: left;
+}
+.container h4 {
+  color:lightskyblue;
+  font-style: italic;
+}
